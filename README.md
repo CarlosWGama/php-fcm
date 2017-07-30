@@ -29,7 +29,7 @@ Na tela de configurações, basta clicar na aba Cloud Message e já poderá ver 
 Para usar esse projeto, basta baixar esse repositório em seu projeto e importar a classe em src/FCM.php ou usar o composer que é o mais indicado:
 
 ```
-composer require carloswgama/php-fcm:
+composer require carloswgama/php-fcm
 ```
 
 Caso seu projeto já possua um arquivo composer.json, você pode também adiciona-lo nas dependências require e rodar um composer install:
