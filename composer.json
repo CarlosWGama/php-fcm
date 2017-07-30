@@ -1,0 +1,23 @@
+{
+    "name": "carloswgama/php-fcm",
+    "description": "Class PHP para o uso do Firebase Cloud Message",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "push notification", "firebase", "fcm", "firebase cloud message", "gcm", "google cloud message"
+    ],
+    "authors": [
+        {
+            "name": "Carlos W. Gama",
+            "email": "carloswgama@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "CWG\\Firebase\\": "src/"
+        }
+    }
+}
