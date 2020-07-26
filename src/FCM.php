@@ -58,8 +58,8 @@ class FCM {
     }
 
     /**
-    * Seta a chave o título da notificação
-    * @param $chave string
+    * Seta o título da notificação
+    * @param $titulo string
     * @return FCM
     */
     public function setTitulo($titulo) {
@@ -68,12 +68,12 @@ class FCM {
     }
 
     /**
-    * Seta a o texto da mensagem
-    * @param $chave string
+    * Seta o texto da mensagem
+    * @param $texto string
     * @return FCM
     */
     public function setTexto($texto) {
-        $this->notificao['title'] = $texto;
+        $this->notificao['body'] = $texto;
         return $this;
     }
 
